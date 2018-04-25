@@ -1,0 +1,34 @@
+/*---------------------FONTS--------------------*/
+@font-face {
+  font-family: 'Gotham Pro Black';
+  src: url('fonts/GothamPro-Black.eot');
+  src: url('fonts/GothamPro-Black.eot?#iefix') format('embedded-opentype'),
+  url('fonts/GothamPro-Black.woff') format('woff'),
+  url('fonts/GothamPro-Black.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham Pro Light';
+  src: url('fonts/GothamPro-Light.eot');
+  src: url('fonts/GothamPro-Light.eot?#iefix') format('embedded-opentype'),
+  url('fonts/GothamPro-Light.woff') format('woff'),
+  url('fonts/GothamPro-Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Gotham Pro Regular';
+  src: url('fonts/GothamPro.eot');
+  src: url('fonts/GothamPro.eot?#iefix') format('embedded-opentype'),
+  url('fonts/GothamPro.woff') format('woff'),
+  url('fonts/GothamPro.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.directions .red-header{
+  background-color: #c1433c;
+  color: #fff;
+}

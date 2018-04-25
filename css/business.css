@@ -1,0 +1,125 @@
+/*---------------------FONTS--------------------*/
+@font-face {
+  font-family: 'Gotham Pro Black';
+  src: url('fonts/GothamPro-Black.eot');
+  src: url('fonts/GothamPro-Black.eot?#iefix') format('embedded-opentype'),
+  url('fonts/GothamPro-Black.woff') format('woff'),
+  url('fonts/GothamPro-Black.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham Pro Light';
+  src: url('fonts/GothamPro-Light.eot');
+  src: url('fonts/GothamPro-Light.eot?#iefix') format('embedded-opentype'),
+  url('fonts/GothamPro-Light.woff') format('woff'),
+  url('fonts/GothamPro-Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Gotham Pro Regular';
+  src: url('fonts/GothamPro.eot');
+  src: url('fonts/GothamPro.eot?#iefix') format('embedded-opentype'),
+  url('fonts/GothamPro.woff') format('woff'),
+  url('fonts/GothamPro.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+.nav-line{
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.menu {
+  color: #fff;
+  list-style: none;
+}
+
+
+.menu li a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.red-header{
+  background-color: #c1433c;
+  color: #fff;
+  font-family: 'Gotham Pro Light';
+
+}
+
+
+
+
+.cards{
+  padding-top: 80px;
+  font-family: 'Gotham Pro Regular';
+
+}
+
+.contacts{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.contacts .red-header{
+  background-color: #c1433c;
+  color: #fff;
+  font-family: 'Gotham Pro Light';
+}
+.contacts input{
+  display: block;
+  background-color: #cccccc;
+  border: 1px solid transparent;
+}
+
+.contacts input:hover{
+  border-color: #0f0f0f;
+
+}
+
+.forms{
+  padding-top: 60px;
+}
+.forms .message{
+  padding-bottom: 200px;
+}
+
+footer{
+  background-color: #323e48;
+  color: #fff;
+  font-family: 'Gotham Pro Regular';
+}
+footer a{
+  color: #fff;
+}
+
+footer a:hover{
+  color:#c1433c;
+  text-decoration: none;
+
+}
+
+.directions {
+  padding-top: 50px;
+}
+.directions .cards img{
+  width: 109px;
+  height: 109px;
+}
+
+.consulting {
+  background-color: #323e48;
+  font-family: 'Gotham Pro Regular';
+  font-size: 20px;
+  color:#fff;
+}
+
+.services{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.offers h2{
+  font-size: 70px;
+}
