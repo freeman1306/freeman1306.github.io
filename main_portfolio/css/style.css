@@ -1,0 +1,44 @@
+body {
+    background-image: url('../img/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Varela Round', sans-serif;
+    padding: 7em 0;
+}
+
+body:focus,
+body:visited,
+body:active {
+    outline: none;
+}
+
+.wrapper {
+    background: rgba(172, 227, 255, 0.5);
+    max-width: 80%;
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: 5em 0;
+    border: 3px solid rgba(172, 227, 255, 0);
+    transition: border .5s linear;
+}
+
+.wrapper:hover {
+    border: 3px solid rgb(125, 171, 241);
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #f6fbff;
+    font-size: 22px;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(255, 212, 212);
+}
