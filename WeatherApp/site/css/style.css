@@ -1,0 +1,246 @@
+body {
+  font-family: 'Ubuntu', sans-serif; }
+  body h3 {
+    font-weight: bold;
+    color: #648cff; }
+  body :active,
+  body :hover,
+  body :focus {
+    outline: 0;
+    outline-offset: 0; }
+  body .social {
+    max-width: 12em; }
+
+.main {
+  color: #fff;
+  background-image: url("../img/bg.png");
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-size: cover; }
+  .main .navbar {
+    padding-top: 30px;
+    margin-bottom: 100px; }
+    .main .navbar .logo {
+      font-weight: bold;
+      font-size: 24px; }
+  .main .nav {
+    justify-content: space-around; }
+    .main .nav li {
+      margin-right: 1em; }
+    .main .nav a {
+      text-decoration: none;
+      color: #d5d5d5; }
+    .main .nav a .active {
+      color: #fff; }
+  .main .m_left {
+    max-width: 25em; }
+    .main .m_left .tagline {
+      padding-top: 2em;
+      padding-bottom: 1em;
+      font-weight: bold; }
+  .main .buttons {
+    display: flex; }
+    .main .buttons .button_1,
+    .main .buttons .button_2 {
+      width: 9em;
+      height: 3em;
+      line-height: 3em;
+      text-align: center;
+      border-radius: 5px;
+      margin-top: 46px; }
+    .main .buttons a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 18px; }
+    .main .buttons .button_1 {
+      margin-right: 12px;
+      background: #fc6a42; }
+    .main .buttons .button_2 {
+      background: #4466c9; }
+  .main .m_right img {
+    width: 100%; }
+  .main .wrapper {
+    text-align: center; }
+    .main .wrapper .down {
+      background-image: url("../img/Shape 1 copy.png");
+      background-repeat: no-repeat;
+      border: none;
+      border-radius: 30px;
+      background-size: cover;
+      background-position: center;
+      width: 54px;
+      height: 53px;
+      margin-top: 4rem; }
+      .main .wrapper .down a {
+        width: 42px;
+        height: 47px;
+        display: block; }
+
+#features .main_head {
+  text-align: center;
+  margin-top: 125px;
+  margin-bottom: 125px; }
+  #features .main_head span {
+    color: #b3b3b3; }
+#features .features .item {
+  padding-left: 6rem;
+  position: relative; }
+  #features .features .item p {
+    color: #b3b3b3;
+    font-size: 16px; }
+#features .slider button {
+  border: none;
+  background-color: transparent; }
+#features .slider .slick-current {
+  background-color: transparent; }
+#features .slider .slide img {
+  width: 100%;
+  height: auto;
+  border-radius: 0;
+  width: 44%; }
+#features .f1:before {
+  content: '';
+  position: absolute;
+  background-image: url("../img/icon.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 79px;
+  height: 62px;
+  left: -4px; }
+#features .f2:before {
+  content: '';
+  position: absolute;
+  background-image: url("../img/icon1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 79px;
+  height: 62px;
+  left: -4px; }
+#features .f3:before {
+  content: '';
+  position: absolute;
+  background-image: url("../img/icon2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 79px;
+  height: 62px;
+  left: -4px; }
+#features h3 {
+  margin-top: 190px;
+  text-align: center; }
+#features .screen {
+  margin-bottom: 27rem; }
+  #features .screen .left img {
+    width: 100%; }
+  #features .screen .right {
+    padding-top: 22%; }
+    #features .screen .right .screen_desc h3 {
+      margin: 3rem 0;
+      text-align: left; }
+    #features .screen .right .screen_desc p {
+      font-size: 24px; }
+    #features .screen .right .screen_desc .circles {
+      position: relative;
+      margin-top: 6rem; }
+      #features .screen .right .screen_desc .circles .circle {
+        width: 60px;
+        height: 60px;
+        line-height: 55px;
+        text-align: center;
+        border-radius: 50%;
+        border: 2px solid #f5f5f5;
+        box-shadow: 0px 0px 18px 3px #f0f0f0;
+        color: #b3b3b3;
+        position: absolute;
+        background: #fff; }
+        #features .screen .right .screen_desc .circles .circle:nth-child(1) {
+          left: 80px; }
+        #features .screen .right .screen_desc .circles .circle:nth-child(2) {
+          left: 30px; }
+        #features .screen .right .screen_desc .circles .circle:nth-child(3) {
+          left: -14px; }
+#features .screen2 img {
+  z-index: 0; }
+#features .screen2 .left .bubbles .bubble_1 {
+  background: #f2a14e; }
+#features .screen2 .left .bubbles .bubble_2 {
+  background: #fc6a42; }
+#features .screen2 .right .sun {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid #648cff; }
+
+#reviews .reviews_head {
+  text-align: center;
+  margin-top: 125px;
+  margin-bottom: 125px; }
+  #reviews .reviews_head span {
+    color: #b3b3b3; }
+#reviews .quote_right p,
+#reviews .quote_left p {
+  font-size: 24px;
+  margin-top: 20px; }
+#reviews .quote_right .quote_1,
+#reviews .quote_right .quote_2,
+#reviews .quote_left .quote_1,
+#reviews .quote_left .quote_2 {
+  margin-bottom: 7rem; }
+  #reviews .quote_right .quote_1 p:nth-child(3),
+  #reviews .quote_right .quote_2 p:nth-child(3),
+  #reviews .quote_left .quote_1 p:nth-child(3),
+  #reviews .quote_left .quote_2 p:nth-child(3) {
+    font-size: 18px; }
+  #reviews .quote_right .quote_1 img:nth-child(4),
+  #reviews .quote_right .quote_2 img:nth-child(4),
+  #reviews .quote_left .quote_1 img:nth-child(4),
+  #reviews .quote_left .quote_2 img:nth-child(4) {
+    margin-left: 80%; }
+
+#download_app {
+  background-image: url("../img/bg_app.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: -22em 0;
+  background-color: #648cff; }
+  #download_app .how {
+    margin: 21% 0;
+    color: #fff; }
+    #download_app .how h3 {
+      color: #fff; }
+    #download_app .how p {
+      font-size: 18px;
+      margin: 2rem 0;
+      max-width: 33em; }
+    #download_app .how .buttons {
+      display: flex;
+      flex-wrap: wrap; }
+      #download_app .how .buttons .button_1 {
+        margin-right: 10px; }
+  #download_app .how_phones img {
+    margin-top: 4rem;
+    width: 100%;
+    height: 25rem; }
+
+footer {
+  background: #353854; }
+  footer .f_navbar {
+    padding-top: 30px;
+    margin-bottom: 100px; }
+  footer .f_nav {
+    justify-content: space-around;
+    display: flex;
+    list-style: none; }
+    footer .f_nav li {
+      margin-right: 1em; }
+    footer .f_nav a {
+      text-decoration: none;
+      color: #b3b3b3; }
+  footer hr {
+    color: #b3b3b3; }
+  footer .rights {
+    color: #888686;
+    font-size: 11px; }
+
+/*# sourceMappingURL=style.css.map */
