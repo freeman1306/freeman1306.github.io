@@ -1,0 +1,556 @@
+@media only screen and (max-width: 768px) {
+    .layout {
+      width: 100%;
+      margin: 0 auto;
+
+    }
+    * {
+      position: static;
+
+
+      margin: 0 auto;
+      display: block;
+
+      
+    }
+    input {
+        max-width: 500px;
+    }
+   
+    .menu1, .menu2 {
+       
+        position: static;
+        text-align: center;
+        width: 100%;
+        line-height: 2;
+        opacity: 1;
+        transition: all 1s linear;
+        display: block;
+        
+    }
+    .menu-hidden {
+        visibility: hidden;
+    }
+    .menu-visually-hidden {
+        opacity: 0;
+    }
+   .top-menu  .logo  a {
+      
+      color: white !important;
+    }
+    .top-menu a {
+      color: white;
+    }
+    .top-menu a:hover {
+      background-color: #131313;
+    }
+    
+   
+    .menu1 span {
+      width: 100%;
+      text-align: center;
+      
+      display: block;
+      
+    
+     
+    }
+    .menu1 span:first-of-type {
+    margin-left: 0;
+  }
+    .top-menu span {
+    margin-left: 0;
+    display: block;
+    
+    margin-top: 0;
+    line-height: 10px;
+  }
+  .top-menu {
+    margin-top: 0;
+    z-index: 12;
+    height: 50px;
+    line-height: 25px;
+    width: 100%;
+    background-color: #171a21;
+    
+  }
+  .sticky-bg {
+    background-color: #171a21;
+  }
+  .logo span {
+    display: inline;
+  }
+  .menu1, .menu2 {
+    background-color: #171a21;
+  }
+  .menu2 button {
+    line-height: 0;
+  }
+    .burger-menu {
+      left: 10px;
+      position: absolute;
+      margin-left: 0;
+      top: 15px;
+      visibility: visible;
+      z-index: 20;
+      
+    }
+     .burger-menu div {
+      background-color: white;
+      z-index: 20;
+    }
+    
+    .logo {
+      text-align: center;
+      position: relative;
+     
+      width: 200px;
+      left: 0;
+      right: 0;
+      height: 40px;
+      
+      margin: 0 auto;
+        margin-top: -8px;
+    }
+    .sticky-menu {
+    position: fixed;
+    top: 0;
+    line-height: 25px;
+    height: 50px;
+    
+    margin-top: 0;
+    z-index: 11;
+  }
+  .sticky-menu .menu2 {
+    margin-top: 0;
+  }
+  .sticky-bg {
+    
+    background-color: white;
+    position: fixed;
+    top: 0;
+    
+    height: 50px;
+    width: 100%;
+    display: none;
+    z-index: 10;
+    box-shadow: 0 2px 5px #e1e1e1;
+    
+  }
+    .top-text {
+      width: 100%;
+        max-width: 600px;
+    }
+    .hidden-video iframe {
+        top: 50px;
+    }
+    .close-video {
+        top: 400px;
+    }
+    .features {
+      margin-top: 20px;
+      margin-bottom: 300px;
+        max-width: 600px;
+    }
+    .feature, .feature p .features {
+      width: 100%;
+      text-align: center;
+      margin-left: 0;
+    }
+    .feature:first-of-type {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .try-to-hack {
+    margin-bottom: 10px;
+  }
+    .iphone-feature {
+      float: none;
+      width: 100%;
+      max-width: 600px;
+      
+    
+    
+   
+    height: 500px;
+    
+
+    }
+    .bg-iphone {
+        left: -550px;
+        z-index: -1;
+        top: -280px;
+
+    }
+    .iphone-feature button {
+      margin-top: 10px;
+    }
+    .iphone-feature h2 {
+    margin-right: 0;
+    text-align: center;
+    margin-bottom: 10px;
+    }
+     .iphone-feature p {
+       text-align: center;
+     }
+    .iphone-feature .try-to-hack {
+      
+      text-align: center;
+      margin: 0 auto;
+    }
+    .map-feature {
+      width: 100%;
+      text-align: center;
+
+    }
+    .map-feature h2  {
+      margin-bottom: 10px;
+    }
+    .map-feature h3 {
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    .partners {
+        width: 280px;
+        margin-bottom: 100px;
+
+    }
+    .map-feature {
+      height: 630px;
+    }
+    .world-map {
+      position: static;
+      margin-top: 50px;
+      height: 400px;
+      width: 100%;
+      background-size: contain;
+    }
+    .form form {
+        max-width: 500px;
+    }
+    .form [type=text] {
+      width: 100%;
+      position: relative;
+    }
+    .gallery {
+      height: 900px;
+    }
+    .screen2 {
+        left: -750px;
+
+        right: 0;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 350px;
+        background-size: contain;
+    }
+    .current-screen {
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+    .screen3 {
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 390px;
+        background-size: contain;
+    }
+    .screen4 {
+        left: 0;
+        right: -750px;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 350px;
+        background-size: contain;
+    }
+    .screen1, .screen5 {
+        display: none;
+    }
+
+    .form [type=submit] {
+      right: 6px;
+    }
+    .slider {
+      width: 100%;
+        max-width: 600px;
+    }
+    .slider img {
+      visibility: hidden
+    }
+    .slider-curry img {
+      margin: 0 auto;
+      visibility: visible;
+    }
+    
+    
+   
+    .arrow-left {
+  
+  top: -110px;
+  
+  left: 0;
+}
+.arrow-right {
+  
+  top: -110px;
+  right: 0;
+  
+  
+}
+  .slider-content:nth-child(1) img {
+    margin: 0 auto;
+    right: 0;
+      left: 0;
+      
+  }
+  .slider-content:nth-child(2) img {
+    margin: 0 auto;
+      
+      right: 0;
+      left: 0;
+    
+  }
+  .slider-content:nth-child(3) img {
+    margin: 0 auto;
+    right: 0;
+    left: 0;
+      
+  }
+    .slider-text {
+      text-align: center;
+      width: 100%;
+      
+    }
+    
+  .choose h2 {
+    margin-top: 50px;
+  }
+    .choose {
+      width: 100%;
+      text-align: center;
+      float: none;
+      overflow: auto;
+        max-width: 600px;
+        margin: 0 auto;
+      
+    }
+    .starter, .pro {
+      position: static !important;
+      display: block;
+      width: 100%;
+      float: none;
+        max-width: 600px;
+      
+    }
+    .pro {
+      margin-top: 0;
+    }
+    .plan-bg {
+      height: auto;
+    }
+    .footer-block1, .lear-more, .about-us, .support  {
+      float: none;
+      text-align: center;
+      margin: 0 auto;
+    }
+    .footer-block1 .logo { 
+    text-align: center;
+
+    }
+    .gallery h2 {
+      
+    }
+    .hidden-video iframe {
+      width: 100%;
+        max-width: 560px;
+    }
+    .Iphone-6 { 
+    bottom: -110px;
+    width: 100%;
+    max-width: 400px;
+    background-position: top center ;
+
+
+    }
+    .animated {
+        /*CSS transitions*/
+        -o-transition-property: none !important;
+        -moz-transition-property: none !important;
+        -ms-transition-property: none !important;
+        -webkit-transition-property: none !important;
+        transition-property: none !important;
+        /*CSS transforms*/
+        -o-transform: none !important;
+        -moz-transform: none !important;
+        -ms-transform: none !important;
+        -webkit-transform: none !important;
+        transform: none !important;
+        /*CSS animations*/
+        -webkit-animation: none !important;
+        -moz-animation: none !important;
+        -o-animation: none !important;
+        -ms-animation: none !important;
+        animation: none !important;
+    }
+ }
+@media only screen and (min-width: 768px) and (max-width: 980px) {
+    .layout {
+        width: 768px;
+        margin: 0 auto;
+    }
+    .top-menu {
+        width: 768px;
+    }
+    .logo {
+        position: absolute;
+        text-align: left;
+
+        left: 0px;
+        margin: 0;
+    }
+    .menu1 {
+        left: 200px;
+    }
+    .menu2 {
+        right: 10px;
+    }
+    .feature {
+        width: 350px;
+    }
+    .feature:first-of-type {
+        margin-left: 10px;
+        margin-right: 40px;
+    }
+    .iphone-feature {
+        width: 400px;
+    }
+    .iphone-feature h2 {
+        margin-right: 100px;
+    }
+    .bg-iphone {
+        left: -700px;
+        z-index: -1;
+    }
+    .map-feature {
+        width: 400px;
+    }
+    .world-map {
+        left: 230px;
+    }
+    .form [type=submit]{
+        right: 140px;
+    }
+    .choose {
+        width: 255px;
+
+        margin-right: 20px;
+    }
+
+    .starter, .pro {
+        width: 245px;
+
+    }
+
+
+.footer-block1 {
+    width: 200px;
+    margin-right: 90px;
+}
+
+.lear-more {
+    margin-right: 30px;
+}
+.about-us {
+    margin-right: 50px;
+}
+
+
+
+
+
+}
+@media only screen and (min-width: 980px) and (max-width: 1200px) {
+ .layout {
+     width: 980px;
+
+ }
+.top-menu {
+    width: 980px;
+}
+.logo {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+
+
+}
+.menu1 {
+ margin-left: -20px;
+}
+.menu2 {
+    right: 0;
+}
+    .features {
+        margin: 125px auto 200px;
+        width: 900px;
+    }
+.feature {
+    width: 400px;
+}
+.feature:first-of-type {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.iphone-feature {
+    width: 600px;
+}
+.iphone-feature h2 {
+    margin-right: 100px;
+}
+.bg-iphone {
+    left: -700px;
+    z-index: -1;
+}
+.map-feature {
+    width: 400px;
+}
+.world-map {
+    left: 230px;
+}
+.form [type=submit]{
+    right: 245px;
+}
+.choose {
+    width: 300px;
+
+    margin-right: 20px;
+}
+
+.starter, .pro {
+    width: 300px;
+
+}
+
+
+.footer-block1 {
+    width: 200px;
+    margin-right: 200px;
+}
+
+.lear-more {
+    margin-right: 80px;
+}
+.about-us {
+    margin-right: 120px;
+}
+
+
+}
+
+
+
+    
+   
