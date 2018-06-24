@@ -1,391 +1,453 @@
 <!DOCTYPE html>
-<html lang="en">
+
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
-        crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
 
-    <link rel="stylesheet" type="text/css" media="screen" href="slick-slider/main.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css">
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title></title>
+	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+	<link href="css/animate.css" rel="stylesheet" type="text/css" />
+	<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+	<link href="css/owl.carousel.min.css" rel="stylesheet" type="text/css" />
+	<link href="css/owl.theme.default.min.css" rel="stylesheet" type="text/css" />
+	<link href="css/JStyle.css" rel="stylesheet" type="text/css" />
 
-
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
-
-
-
-
-
-    <title>WeatherApp</title>
 </head>
 
-<body>
-    <div class="main" id="main">
-        <div class="container">
-            <header>
-
-                <div class="row navbar">
-
-                    <div class="col-lg-3 col-md-3 text-center col-sm-12">
-                        <div class="logo">FUN WEATHER.
-                        </div>
-                    </div>
-                    <div class="col-lg-7 col-md-6 col-sm-12 p-4">
-                        <ul class="nav  flex-wrap">
-                            <li class="active">
-                                <a href="#">Home</a>
-                            </li>
-                            <li>
-                                <a href="#features">Features</a>
-                            </li>
-                            <li>
-                                <a href="#reviews">Reviews</a>
-                            </li>
-                            <li>
-                                <a href="#download_app">Download</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-2 col-md-3 col-sm-12 mx-auto mt-sm-3 d-flex justify-content-around social">
-                        <a href="">
-                            <img src="img/social/facebook.png" alt="picture">
-                        </a>
-                        <a href="">
-                            <img src="img/social/instagram.png" alt="picture">
-                        </a>
-                        <a href="">
-                            <img src="img/social/twitter.png" alt="picture">
-                        </a>
-                    </div>
-
-            </header>
-
-            <div class="content">
-                <div class="row">
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-12 text-center  text-md-left mb-5">
-                        <div class="m_left mx-auto">
-                            <h1 class="tagline">Get the most fun weather app</h1>
-                            <p>Simple, nice and user-friendly application of the weather. Only useful information</p>
-                            <div class="buttons mx-auto d-inline-flex flex-wrap">
-
-                                <a class="button_1 mr-sm-2 mx-auto" href="#">Download</a>
-
-
-                                <a class="button_2 mx-auto" href="#">Features</a>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-                        <div class="m_right">
-                            <img src="./img/phone_main.png" alt="picture">
-
-                        </div>
-                    </div>
-                </div>
-                <div class="wrapper">
-                    <button class="down" id="down">
-                        <a href="#features"></a>
-                    </button>
-                </div>
-            </div>
-            </div>
-        </div>
-
-    </div>
-    <section id="features">
-        <div class="container">
-            <div class="main_head">
-                <h3>PERFECT FEATURES</h3>
-
-                <span>only necessary</span>
-            </div>
-
-            <div class="features">
-                <div class="row">
-                    <div class="col-lg-4">
-                        <div class="item f1 mb-5">
-                            <h5>Usability</h5>
-                            <p> Sometimes the simplest things are the hardest to find. So we created a new line for everyday
-                                life
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="item f2 mb-5">
-                            <h5>Parallax Effect</h5>
-                            <p>Sometimes the simplest things are the hardest to find. So we created a new line for everyday
-                                life
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="item f3">
-                            <h5>Unlimites Colors</h5>
-                            <p>Sometimes the simplest things are the hardest to find. So we created a new line for everyday
-                                life
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="main_head">
-                    <h3>SIMPLE WIDGETS</h3>
-                    <span>Drag and Drop</span>
-                </div>
-
-
-                <div class="slider">
-                    <div class="slide">
-                        <img src="img/slider/image left.png" alt="picture">
-
-                    </div>
-                    <div class="slide">
-                        <img src="img/slider/image center.png" alt="picture">
-
-                    </div>
-                    <div class="slide">
-                        <img src="img/slider/image right.png" alt="picture">
-
-                    </div>
-
-                </div>
-
-
-
-
-                <div class="screenshots">
-
-                    <div class="main_head">
-                        <h3>SCREENSHOTS</h3>
-                        <span>The brightest image</span>
-                    </div>
-
-
-                    <div class="screen">
-                        <div class="row">
-                            <div class="col-lg-6 col-md-6 col-sm-12 ">
-                                <div class="left">
-
-                                    <img class="phone" src="./img/SCREEN.png" alt="picture">
-
-                                </div>
-                            </div>
-                            <div class="col-lg-6 col-md-6 col-sm-12">
-                                <div class="right">
-                                    <img src="./img/cloud.png" alt="picture">
-
-                                    <div class="screen_desc">
-                                        <h3>WHEN THE CLOUDS</h3>
-                                        <p>Variable information on the air humidity, the feeling of the weather, and the ability
-                                            to share this with your friends</p>
-
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-
-
-
-
-
-
-
-
-
-                    <div class="screen">
-                        <div class="row">
-                            <div class="col-lg-6 col-md-6 col-sm-12">
-                                <div class="left">
-
-                                    <img class="phone" src="./img/SCREEN1.png" alt="picture">
-
-                                </div>
-                            </div>
-                            <div class="col-lg-6 col-md-6 col-sm-12">
-                                <div class="right">
-                                    <img src="./img/rain.png" alt="picture">
-
-                                    <div class="screen_desc">
-                                        <h3>WHEN THE SUN</h3>
-                                        <p>Sometimes the simplest things are the hardest to find. So we created a new line for
-                                            everyday life.</p>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="screen">
-                        <div class="row">
-                            <div class="col-lg-6 col-md-6 col-sm-12">
-                                <div class="left">
-
-                                    <img class="phone" src="./img/SCREEN2.png" alt="picture">
-
-                                </div>
-                            </div>
-                            <div class="col-lg-6 col-md-6 col-sm-12">
-                                <div class="right">
-                                    <img src="./img/rain.png" alt="picture">
-
-                                    <div class="screen_desc">
-                                        <h3>WHEN THE CLOUDS</h3>
-                                        <p>Variable information on the air humidity, the feeling of the weather, and the ability
-                                            to share this with your friends</p>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-
-                </div>
-    </section>
-    <section id="reviews">
-        <div class="reviews_head">
-            <h3>WHAT PEOPLE ARE SAYING</h3>
-            <span>Reviews</span>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="quote_right">
-                        <div class="quote_1">
-                            <img src="img/bracket.png" alt="picture">
-                            <p>What art offers is space - a certain breathing room for the spirit. </p>
-                            <p>John Updike</p>
-                            <img src="img/bracket1.png" alt="picture">
-                        </div>
-
-                        <div class="quote_2 ">
-                            <img src="img/bracket.png" alt="picture">
-                            <p>The only courage that matters is the kind that gets you from one moment to the next.</p>
-                            <p>Mignon McLaughlin</p>
-                            <img src="img/bracket1.png" alt="picture">
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="quote_left">
-                        <div class="quote_1">
-                            <img src="img/bracket.png" alt="picture">
-                            <p>We do not see nature with our eyes, but with our understandings and our hearts. </p>
-                            <p>William Hazlitt</p>
-                            <img src="img/bracket1.png" alt="picture">
-                        </div>
-
-                        <div class="quote_2 ">
-                            <img src="img/bracket.png" alt="picture">
-                            <p>No man has a good enough memory to be a successful liar. </p>
-                            <p>Abraham Lincoln</p>
-                            <img src="img/bracket1.png" alt="picture">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </section>
-    <section id="download_app">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-5 col-md-7 col-sm-12">
-                    <div class="how">
-                        <h3>HOW DOWNLOAD THE APP?</h3>
-                        <p>Just download the app from the store. Simple, nice and user-friendly application of theweather. Only
-                            relevant and useful information.</p>
-
-                        <div class="buttons ">
-
-                            <a class="button_1 mx-auto" href="#">
-                                <img src="img/appstore.png" alt="">
-                            </a>
-
-
-                            <a class="button_2" href="#">
-                                <img src="img/google play.png" alt="picture">
-                            </a>
-
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-    <footer>
-        <div class="container">
-            <div class="row f_navbar">
-
-                <div class="col-lg-2 col-md-12 text-center">
-                    <img src="img/Fun Weather..png" alt="picture">
-                </div>
-                <div class="col-lg-8 col-md-12 p-5 p-lg-0">
-                    <ul class="f_nav  flex-wrap" id="f_nav">
-                        <li>
-                            <a class="active" href="#">Home</a>
-                        </li>
-                        <li>
-                            <a href="#features">Features</a>
-                        </li>
-                        <li>
-                            <a href="#reviews">Reviews</a>
-                        </li>
-                        <li>
-                            <a href="#download-app">Download</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-lg-2 col-md-12 d-flex  mx-auto justify-content-around text-center social">
-                    <a href="">
-                        <img src="img/social/facebook.png" alt="picture">
-                    </a>
-                    <a href="">
-                        <img src="img/social/instagram.png" alt="picture">
-                    </a>
-                    <a href="">
-                        <img src="img/social/twitter.png" alt="picture">
-                    </a>
-                </div>
-            </div>
-            <div class="row">
-                <hr>
-                <div class="rights text-right">
-                    © 2016 All rights reserved. Weather App Theme by Gravpix
-
-                </div>
-            </div>
-            <div class="row justify-content-end">
-                <div class="go_top mt-4" id="go_top">
-                    <a href="#header">
-                        <img src="img/go top.png" alt="picture">
-                    </a>
-                </div>
-
-            </div>
-        </div>
-    </footer>
-
-
-
-
-    <script src="slick-slider/main.js"></script>
-
-
-    <!-- <script type="text/javascript" src="slick/slide.min.js"></script> -->
+<body id="wether-app">
+
+<div class="container-fluid W-Header-Bg No-Padding" id="w-top">
+	<nav class="navbar W-Header" id="w-navbar">
+		<div class="container">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+			  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			  </button>
+			  <a class="navbar-brand" href="index.html">Fun Weather.</a>
+			</div>
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav W-Menu">
+					<li class="Active"><a href="#w-top">Home</a></li>
+					<li><a href="#w-features">Features</a></li>
+					<li><a href="#w-reviews">Reviews</a></li>
+					<li><a href="#w-download">Download</a></li>
+				</ul>
+				
+				<ul class="W-Social-Icons">
+					<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+					<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+					<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<div class="container">
+		<div class="W-Hero-Section" id="hero-section">
+			<div class="col-sm-6 No-Padding">
+				<h1 class="wow bounceIn">Get the most fun weather app</h1>
+				<h3>Simple, nice and user-friendly application of the <br /> weather. Only useful information</h3>
+				<a href="#" class="W-Download Wawe">Download</a>
+				<a href="#" class="W-Features Wawe">Features</a>
+			</div>
+			<div class="col-sm-6 No-Padding text-center">
+				<div class="Hero-Image">
+					<div class="Image-Hover wow fadeInDownBig">
+						<img src="images/Phone.png" alt="wether app" class="Default-Image" />
+						<img src="images/phone-hover.png" alt="wether app" class="Hover-Image" />
+					</div>
+					<div class="Image-Caption C-1 wow fadeInUpBig" >9</div>
+					<div class="Image-Caption C-2 wow fadeInUpBig">LONDON</div>
+					<div class="Image-Caption C-3 wow fadeInUpBig">RIO</div>
+					<div class="Image-Caption C-4 wow fadeInUpBig">SUNNY</div>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div>
+
+<div class="container-fluid No-Padding Content-Section" id="w-features">
+	<div class="container">
+		<div class="Perfect-Feature">
+			<h2 class="Heading">Perfect Features</h2>
+			<p class="Sub-Heading">Only necessary</p>
+			<div class="Feature-Description">
+				<div class="col-sm-6 col-md-4 Pl-0 Image-Hover Discription-Collumn wow fadeInUpBig"  data-wow-duration="1s">
+					<div class="F-Image">
+						<img src="images/diamond.png" alt="wether app" class="Default-Image" />
+						<img src="images/diamond-hover.png" alt="wether app" class="Hover-Image" />
+					</div>
+					<div class="F-Content">
+						<h3>Usability </h3>
+						<p>Sometimes the simplest things are the hardest to find. So we created a new line for everyday life</p>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-4 Pl-0 Image-Hover Discription-Collumn wow fadeInUpBig"  data-wow-duration="1s">
+					<div class="F-Image">
+						<img src="images/parrelax.png" alt="wether app" class="Default-Image" />
+						<img src="images/parrelax-hover.png" alt="wether app" class="Hover-Image" />
+					</div>
+					<div class="F-Content">
+						<h3>Parallax Effect</h3>
+						<p>Sometimes the simplest things are the hardest to find. So we created a new line for everyday life</p>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-4 Pl-0 Image-Hover Discription-Collumn wow fadeInUpBig"  data-wow-duration="1s">
+					<div class="F-Image">
+						<img src="images/colors.png" alt="wether app" class="Default-Image" />
+						<img src="images/colors-hover.png" alt="wether app" class="Hover-Image" />
+					</div>
+					<div class="F-Content">
+						<h3>Unlimites Colors</h3>
+						<p>Sometimes the simplest things are the hardest to find. So we created a new line for everyday life</p>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+		
+		<div class="Simple-Widgets hidden-xs">
+			<h2 class="Heading">Simple widgets</h2>
+			<p class="Sub-Heading">Drag and Drop</p>
+			
+			<div class="Rotating-Slider-Wrapper wow fadeInUpBig" data-wow-delay="1s" data-wow-duration="0.5s">
+				<!-- <div id="rotating-slider"> -->
+				<div class="container" id="container">
+					<ul>
+						<li>
+							<img src="images/slider-1.png" />
+						</li>
+						<li>
+							<img src="images/slider-2.png" />
+						</li>
+						<li>
+							<img src="images/slider-3.png" />
+						</li>
+						<img src="images/left.png" class="left">
+						<img src="images/right.png" class="right">
+					</ul>
+				</div>
+			</div>
+			
+			
+			
+		</div>
+		
+		<div class="Screenshort">
+			<h2 class="Heading">Screenshort</h2>
+			<p class="Sub-Heading">The brightest images</p>
+			<div class="Ss1">
+				<div class="col-sm-5 col-md-6 text-center">
+					<div class="Ss-Image">
+						<div class="Image-Hover wow fadeInLeftBig" data-wow-duration="0.7s">
+							<img src="images/cloudy.png" alt="wether app" class="Default-Image" />
+							<img src="images/cloudy-hover.png" alt="wether app" class="Hover-Image" />
+						</div>
+						<div class="Vertical-caption vertical-text">Cloudy</div>
+						<div class="Cloudy1 wow bounceIn" data-wow-delay="1.2s" data-wow-duration="0.5s">Cloudy</div>
+						<div class="Cloudy2 wow bounceIn" data-wow-delay="1.4s" data-wow-duration="0.5s">15</div>
+					</div>
+				</div>
+				<div class="col-sm-7 col-md-6 Cloudy-Content">
+					<h2>When the clouds</h2>
+					<p>Variable information on the air humidity, the feeling of the weather, and the ability to share this with your friends</p>
+					<div class="W-Bage">
+						<div class="Bage-1 wow fadeInRight" data-wow-delay="0.7s" data-wow-duration="0.5s">95%</div>
+						<div class="Bage-2 wow fadeInRight" data-wow-delay="0.9s" data-wow-duration="0.5s">9</div>
+						<div class="Bage-3 wow fadeInRight" data-wow-delay="1.1s" data-wow-duration="0.5s">Rainy</div>
+					</div>
+				</div>
+				
+				<div class="clearfix"></div>
+			</div>
+			
+			
+			<div class="Ss2">
+				<div class="col-sm-7 col-md-6 Cloudy-Content">
+					<h2>When the sun</h2>
+					<p>Variable information on the air humidity, the feeling of the weather, and the ability to share this with your friends</p>
+					<div class="W-Bage">
+						<div class="Bage-1 wow fadeInRight" data-wow-delay="0.7s" data-wow-duration="0.5s">95%</div>
+						<div class="Bage-2 wow fadeInRight" data-wow-delay="0.9s" data-wow-duration="0.5s">9</div>
+						<div class="Bage-3 wow fadeInRight" data-wow-delay="1.1s" data-wow-duration="0.5s">Rainy</div>
+					</div>
+				</div>
+				
+				<div class="col-sm-5 col-md-6 text-center">
+					<div class="Ss-Image">
+						<div class="wow fadeInRightBig" data-wow-duration="0.7s">
+							<img src="images/sunny.png" alt="wether app" class="Default-Image" />
+						</div>
+						<div class="Vertical-caption vertical-text">Sunny</div>
+						<div class="Cloudy1 wow bounceIn" data-wow-delay="1.2s" data-wow-duration="0.5s">Sunny</div>
+						<div class="Cloudy2 wow bounceIn" data-wow-delay="1.4s" data-wow-duration="0.5s">35</div>
+					</div>
+				</div>
+				
+				<div class="clearfix"></div>
+			</div>
+			
+			
+			<div class="Ss3">
+				<div class="col-sm-5 col-md-6 text-center">
+					<div class="Ss-Image">
+						<div class="Image-Hover wow fadeInLeftBig" data-wow-duration="0.7s">
+							<img src="images/rainy.png" alt="wether app" class="Default-Image" />
+							<img src="images/rainy-hover.png" alt="wether app" class="Hover-Image" />
+						</div>
+						<div class="Vertical-caption vertical-text">Rainy</div>
+						<div class="Cloudy1  wow bounceIn" data-wow-delay="1.2s" data-wow-duration="0.5s">Rainy</div>
+						<div class="Cloudy2  wow bounceIn" data-wow-delay="1.2s" data-wow-duration="0.5s">15</div>
+					</div>
+				</div>
+				<div class="col-sm-7 col-md-6 Cloudy-Content">
+					<h2>When the rain</h2>
+					<p>Variable information on the air humidity, the feeling of the weather, and the ability to share this with your friends</p>
+					<div class="W-Bage">
+						<div class="Bage-1 wow fadeInRight" data-wow-delay="0.7s" data-wow-duration="0.5s">95%</div>
+						<div class="Bage-2 wow fadeInRight" data-wow-delay="0.9s" data-wow-duration="0.5s">9</div>
+						<div class="Bage-3 wow fadeInRight" data-wow-delay="1.1s" data-wow-duration="0.5s">Rainy</div>
+					</div>
+				</div>
+				
+				<div class="clearfix"></div>
+			</div>
+			
+			
+		</div>
+		
+		
+		
+		<div class="W-Tetimonials" id="w-reviews">
+			<h2 class="Heading">What people are saying</h2>
+			<p class="Sub-Heading">Reviews</p>
+			<div class="owl-carousel owl-theme">
+				<div class="item">
+				
+					<div class="col-sm-6 W-Reviews">
+						<h2>What art offers is space - a certain breathing room for the spirit.</h2>
+						<p class="W-Client">John Updike</p>
+					</div>
+					
+					<div class="col-sm-6 W-Reviews">
+						<h2>What art offers is space - a certain breathing room for the spirit.</h2>
+						<p class="W-Client">John Updike</p>
+					</div>
+					
+					<div class="col-sm-6 W-Reviews">
+						<h2>What art offers is space - a certain breathing room for the spirit.</h2>
+						<p class="W-Client">John Updike</p>
+					</div>
+					
+					<div class="col-sm-6 W-Reviews">
+						<h2>What art offers is space - a certain breathing room for the spirit.</h2>
+						<p class="W-Client">John Updike</p>
+					</div>
+					
+				</div>
+				<div class="item">
+				
+					<div class="col-sm-6 W-Reviews">
+						<h2>What art offers is space - a certain breathing room for the spirit.</h2>
+						<p class="W-Client">John Updike</p>
+					</div>
+					
+					<div class="col-sm-6 W-Reviews">
+						<h2>What art offers is space - a certain breathing room for the spirit.</h2>
+						<p class="W-Client">John Updike</p>
+					</div>
+					
+					<div class="col-sm-6 W-Reviews">
+						<h2>What art offers is space - a certain breathing room for the spirit.</h2>
+						<p class="W-Client">John Updike</p>
+					</div>
+					
+					<div class="col-sm-6 W-Reviews">
+						<h2>What art offers is space - a certain breathing room for the spirit.</h2>
+						<p class="W-Client">John Updike</p>
+					</div>
+					
+				</div>
+				<div class="item">
+				
+					<div class="col-sm-6 W-Reviews">
+						<h2>What art offers is space - a certain breathing room for the spirit.</h2>
+						<p class="W-Client">John Updike</p>
+					</div>
+					
+					<div class="col-sm-6 W-Reviews">
+						<h2>What art offers is space - a certain breathing room for the spirit.</h2>
+						<p class="W-Client">John Updike</p>
+					</div>
+					
+					<div class="col-sm-6 W-Reviews">
+						<h2>What art offers is space - a certain breathing room for the spirit.</h2>
+						<p class="W-Client">John Updike</p>
+					</div>
+					
+					<div class="col-sm-6 W-Reviews">
+						<h2>What art offers is space - a certain breathing room for the spirit.</h2>
+						<p class="W-Client">John Updike</p>
+					</div>
+					
+				</div>
+				<div class="item">
+				
+					<div class="col-sm-6 W-Reviews">
+						<h2>What art offers is space - a certain breathing room for the spirit.</h2>
+						<p class="W-Client">John Updike</p>
+					</div>
+					
+					<div class="col-sm-6 W-Reviews">
+						<h2>What art offers is space - a certain breathing room for the spirit.</h2>
+						<p class="W-Client">John Updike</p>
+					</div>
+					
+					<div class="col-sm-6 W-Reviews">
+						<h2>What art offers is space - a certain breathing room for the spirit.</h2>
+						<p class="W-Client">John Updike</p>
+					</div>
+					
+					<div class="col-sm-6 W-Reviews">
+						<h2>What art offers is space - a certain breathing room for the spirit.</h2>
+						<p class="W-Client">John Updike</p>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+		
+		
+		
+		
+	</div>
+	
+</div>
+
+
+<div class="container-fluid No-Padding" id="w-download">
+	<div class="How-Download">
+		<div class="container">
+			<div class="col-md-6 Download-Section">
+				<h2>How Download the app?</h2>
+				<p>
+					Just download the app from the store.
+					Simple, nice and user-friendly application of theweather. Only relevant and useful information.
+				</p>
+				<a href="javascript: void(0)" class="App-Stre Wawe"></a><a href="javascript: void(0)" class="Google-Play Wawe"></a>
+			</div>
+			<div class="col-md-6 text-center">
+				<img src="images/how-download-image.png" alt="" class="img-responsive wow fadeInUpBig" />
+			</div>
+		</div>
+	</div>
+</div>
+
+<footer class="W-Footer">
+	<div class="container Footer-Nav" style="position:relative">
+		<div class="Footer-Logo"><a href="#"><span>FUN </span><span>WETHER.</span></a></div>
+		<div class="Footer-Menu">
+			<ul>
+				<li class="Active"><a href="index.html">Home</a></li>
+				<li><a href="index.html">Features</a></li>
+				<li><a href="index.html">Reviews</a></li>
+				<li><a href="index.html">Download</a></li>
+			</ul>
+		</div>
+		<ul class="W-Social-Icons Fotter-Socia-Icon">
+			<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+			<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+			<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+		</ul>
+	</div>
+	
+	<hr />
+	
+	<div class="container Footer-Caption">
+		<p>© 2016 All rights reserved. Weather App</p>
+	</div>
+	
+</footer>
+
+<a href="#" id="back-to-top" title="Back to top">&uarr;</a>
+
+
+
+	
+	<script src="js/Jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/Carousel.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script src="js/owl.carousel.min.js"></div>
+	<script src="js/Carousel.js"></script>
+	<script src="js/JScript.js"></script>
+	
+	<script>
+		$('.owl-carousel').owlCarousel({
+			loop:true,
+			margin:10,
+			nav:true,
+			dots:false,
+			responsive:{
+				0:{
+					items:1
+				},
+				600:{
+					items:1
+				},
+				1000:{
+					items:1
+				}
+			}
+		});
+		
+		
+		$(document).ready(function() {
+			
+			$('#container').carousel({
+				num:3,
+				maxWidth: 370,
+				maxHeight: 660,
+				showTime: 5000
+			});
+			
+		});
+		
+		$(document).ready(function(){$(".W-Menu li a[href^='#']").on('click', function(e) {
+				// prevent default anchor click behavior
+				e.preventDefault();
+
+			   // store hash
+			   var hash = this.hash;
+			   
+			   $(this).parent().siblings().removeClass('Active');
+			   $(this).parent().addClass('Active');
+			   $('.navbar-collapse').removeClass('in');
+
+			   // animate
+			   $('html, body').animate({
+				   scrollTop: $(hash).offset().top
+				 }, 300, function(){
+
+				   // when done, add hash to url
+				   // (default click behaviour)
+				   window.location.hash = hash;
+				 });
+
+			});$('body').scrollspy({ target: '#navbar-example' });
+		});
+
+		
+	</script>
+	
 </body>
 
 </html>
