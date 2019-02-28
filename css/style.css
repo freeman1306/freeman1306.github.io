@@ -1,9 +1,6 @@
 body {
-    background-image: url('../img/bg.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    font-family: 'Varela Round', sans-serif;
-    padding: 7em 0;
+    padding: 0;
+    margin: 0;
 }
 
 body:focus,
@@ -12,19 +9,23 @@ body:active {
     outline: none;
 }
 
+.bg {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+}
+
 .wrapper {
-    background: rgba(172, 227, 255, 0.5);
+    /* background: rgba(172, 227, 255, 0.5); */
     max-width: 80%;
     margin: 0 auto;
     border-radius: 5px;
     padding: 5em 0;
-    border: 3px solid rgba(172, 227, 255, 0);
-    transition: border .5s linear;
+
+
 }
 
-.wrapper:hover {
-    border: 3px solid rgb(125, 171, 241);
-}
+
 
 ul {
     display: flex;
