@@ -37,9 +37,18 @@ ul li a {
     text-decoration: none;
     color: #f6fbff;
     font-size: 22px;
+    border: 3px solid rgb(107, 9, 50);
+    border-radius: 5px;
+    padding: 5px;
+    background-color: rgba(233, 36, 118, 0.911);
+
+}
+
+ul li a:hover {
+    background-color: rgb(226, 113, 169);
 }
 
 h1 {
     text-align: center;
-    color: rgb(255, 212, 212);
+    color: rgb(255, 255, 255);
 }
