@@ -10,6 +10,10 @@
         .site{
         display: none;
     }
+
+    iframe #sequence-bottom {
+    display: none !important;
+}
     </style>
     <title>Document</title>
 </head>
@@ -779,8 +783,14 @@
 
 
 
-    <iframe src="https://outox.ua" scrolling="no"></iframe>
+    <iframe id="iframe" src="https://outox.ua" scrolling="no"></iframe>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
     <script src="compress/all-2f64b348581e36f7badc97d8d7e1.js"></script>
+
+    <script>
+        $('iframe').contents().find('.poster__mood').hide();
+    </script>
 </body>
 
 </html>

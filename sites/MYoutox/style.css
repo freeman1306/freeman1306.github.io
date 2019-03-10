@@ -2,10 +2,29 @@ iframe {
     width: 100vw;
     height: 100vh;
     overflow: hidden;
+
+
 }
 
 html,
 body {
     overflow: hidden;
     margin: 0;
+}
+
+.article__body {
+    display: none !important;
+}
+
+.article_affiche,
+.article__bottle_active {
+    display: none !important;
+}
+
+iframe .poster__mood {
+    display: none !important;
+}
+
+iframe .article__bottle .article__bottle_active {
+    display: none !important;
 }
