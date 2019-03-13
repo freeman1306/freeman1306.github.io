@@ -32,6 +32,11 @@ ul {
     list-style: none;
     justify-content: space-around;
     padding: 0;
+    flex-wrap: wrap;
+}
+
+ul li {
+    margin-bottom: 2rem;
 }
 
 ul li a {
