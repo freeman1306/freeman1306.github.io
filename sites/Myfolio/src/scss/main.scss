@@ -1,17 +1,43 @@
 @import "helpers/_variables.scss";
 
+i {
+	color: $green_color;
+}
 
 ul {
 	list-style: none;
 	margin: 0;
 }
 
+.descr {
+	max-width: 83%;
+	line-height: 2;
+	margin: 0 auto;
+}
 
+.btn {
+	background-color: #CFC91D;
+	margin-top: 3rem;
+
+}
+
+img {
+	max-width: 100%;
+}
+
+h2 {
+	color: $green_color;
+}
 
 .nav-wraper {
 	background-color: $green_color;
 	position: fixed;
 	width: 100%;
+	z-index: 99;
+}
+
+section {
+	padding: 4.2rem 0;
 }
 
 
@@ -43,11 +69,7 @@ ul {
 		text-align: center;
 
 
-		.btn {
-			background-color: #CFC91D;
-			margin-top: 3rem;
 
-		}
 
 		.h1 {
 			font-size: 72px;
@@ -60,15 +82,108 @@ ul {
 	}
 }
 
+#about-us {}
+
 .title-page {
 	text-align: center;
+
+
 }
 
 .stages {
+	display: flex;
+}
+
+.stages,
+.service-stages {
 	&-border {
 		border-right: 1px solid rgb(109, 109, 109);
 	}
 
-	display: flex;
+	&_item {
+		text-align: center;
+	}
 
+
+
+	h3 {
+		padding: 1rem 0;
+	}
+
+	p {
+		font-size: 12px;
+		line-height: 2;
+
+	}
+
+}
+
+#services {
+	background-color: #E9E7E0;
+
+}
+
+.services-img {
+	margin: -4.2rem 0;
+
+	img {
+		height: 100%;
+	}
+}
+
+.folio {
+	position: relative;
+	overflow: hidden;
+	transition: .5s;
+
+
+	.hcaption {
+		position: absolute;
+		background-color: rgba(25, 145, 141, 0.801);
+		opacity: 0;
+		text-align: center;
+		color: #fff;
+		padding: 1.3rem;
+		max-width: 226px;
+		height: 168px;
+
+		top: 100%;
+		right: 50%;
+		margin-right: -113px;
+		margin-top: -84px;
+
+		transition: .5s;
+
+		.descr {
+			font-size: 12px;
+			line-height: normal;
+		}
+	}
+
+	&:hover {
+
+
+		.hcaption {
+			opacity: 1;
+			top: 50%;
+
+		}
+
+	}
+
+	.folio-work {
+		transition: .5s;
+	}
+}
+
+.form {
+	text-align: center;
+
+	.form_item {
+		display: block;
+		margin: 0 auto 12px;
+		background-color: transparent;
+		border: none;
+		border-bottom: 1px solid rgb(151, 151, 151);
+	}
 }
