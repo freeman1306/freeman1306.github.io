@@ -14,8 +14,9 @@ ul {
 }
 
 .btn {
-  background-color: #CFC91D;
+  background-color: #CFC91D !important;
   margin-top: 3rem;
+  border-radius: 0;
 }
 
 img {
@@ -44,12 +45,16 @@ section {
   margin: 0;
 }
 
-.departs a {
-  color: #fff;
-}
-
 .departs li {
   margin-right: 2rem;
+}
+
+.departs li a {
+  color: #fff !important;
+}
+
+.departs li a:hover {
+  color: #fff !important;
 }
 
 .main-head {
@@ -165,8 +170,18 @@ section {
   transition: .5s;
 }
 
+#contact-us {
+  padding-bottom: 0;
+}
+
+.write-us {
+  text-align: center;
+  padding: 3rem 0;
+}
+
 .form {
   text-align: center;
+  color: #fff;
 }
 
 .form .form_item {
@@ -175,5 +190,20 @@ section {
   background-color: transparent;
   border: none;
   border-bottom: 1px solid #979797;
+  text-align: center;
+  color: #e7e7e7;
+  width: 30%;
+}
+
+.form textarea.form_item {
+  border-top: 1px solid #979797;
+  width: 45%;
+}
+
+.footer {
+  color: #777777;
+  padding: 1rem;
+  text-align: center;
+  background-color: #000;
 }
 /*# sourceMappingURL=main.css.map */

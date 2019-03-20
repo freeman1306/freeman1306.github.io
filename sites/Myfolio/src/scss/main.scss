@@ -9,6 +9,7 @@ ul {
 	margin: 0;
 }
 
+
 .descr {
 	max-width: 83%;
 	line-height: 2;
@@ -16,8 +17,9 @@ ul {
 }
 
 .btn {
-	background-color: #CFC91D;
+	background-color: #CFC91D !important;
 	margin-top: 3rem;
+	border-radius: 0;
 
 }
 
@@ -45,12 +47,18 @@ section {
 	display: flex;
 	margin: 0;
 
-	a {
-		color: #fff;
-	}
+
 
 	li {
 		margin-right: 2rem;
+
+		a {
+			color: #fff !important;
+
+			&:hover {
+				color: #fff !important;
+			}
+		}
 	}
 }
 
@@ -176,8 +184,18 @@ section {
 	}
 }
 
+#contact-us {
+	padding-bottom: 0;
+}
+
+.write-us {
+	text-align: center;
+	padding: 3rem 0;
+}
+
 .form {
 	text-align: center;
+	color: #fff;
 
 	.form_item {
 		display: block;
@@ -185,5 +203,21 @@ section {
 		background-color: transparent;
 		border: none;
 		border-bottom: 1px solid rgb(151, 151, 151);
+		text-align: center;
+		color: rgb(231, 231, 231);
+		width: 30%;
+
 	}
+
+	textarea.form_item {
+		border-top: 1px solid rgb(151, 151, 151);
+		width: 45%;
+	}
+}
+
+.footer {
+	color: #777777;
+	padding: 1rem;
+	text-align: center;
+	background-color: #000;
 }
