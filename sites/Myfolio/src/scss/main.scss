@@ -1,0 +1,74 @@
+@import "helpers/_variables.scss";
+
+
+ul {
+	list-style: none;
+	margin: 0;
+}
+
+
+
+.nav-wraper {
+	background-color: $green_color;
+	position: fixed;
+	width: 100%;
+}
+
+
+.departs {
+	display: flex;
+	margin: 0;
+
+	a {
+		color: #fff;
+	}
+
+	li {
+		margin-right: 2rem;
+	}
+}
+
+.main-head {
+	background-image: url(../images/bg.jpg);
+	background-size: cover;
+	height: 39rem;
+	background-attachment: fixed;
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 3rem;
+
+	.main-head_wraper {
+		text-align: center;
+
+
+		.btn {
+			background-color: #CFC91D;
+			margin-top: 3rem;
+
+		}
+
+		.h1 {
+			font-size: 72px;
+			letter-spacing: 2rem;
+		}
+
+		.above-h1 {
+			font-size: 30px;
+		}
+	}
+}
+
+.title-page {
+	text-align: center;
+}
+
+.stages {
+	&-border {
+		border-right: 1px solid rgb(109, 109, 109);
+	}
+
+	display: flex;
+
+}
