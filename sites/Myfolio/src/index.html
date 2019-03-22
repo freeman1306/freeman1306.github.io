@@ -15,6 +15,7 @@
 	 crossorigin="anonymous">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
 	 crossorigin="anonymous">
+	<link rel="stylesheet" href="css/animate.css">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 </head>
 
@@ -25,13 +26,13 @@
 		<div class="nav-wraper">
 			<div class="container">
 				<nav class="navbar navbar-light navbar-fixed-top">
-					<a class="navbar-brand"><img src="images/logo.png" alt=""></a>
+					<a href="#" class="navbar-brand"><img src="images/logo.png" alt=""></a>
 					<ul class="departs">
-						<li><a href="">HOME</a></li>
-						<li><a href="">ABOUT ME</a></li>
-						<li><a href="">SERVICES</a></li>
-						<li><a href="">MY WORK</a></li>
-						<li><a href="">CONTACT ME</a></li>
+						<li><a href="#header">HOME</a></li>
+						<li><a href="#about-us">ABOUT ME</a></li>
+						<li><a href="#services">SERVICES</a></li>
+						<li><a href="#work">MY WORK</a></li>
+						<li><a href="#contact-us">CONTACT ME</a></li>
 					</ul>
 				</nav>
 			</div>
@@ -39,12 +40,12 @@
 
 		<div class="main-head">
 			<div class="main-head_wraper">
-				<p class="above-h1">Lorem Ipsume Dolor Sit Iusmod Tempor</p>
-				<h1 class="h1">INCIDIDUNT BORE</h1>
-				<p><small>Orem ipsum dolor sit amet, consecteture</small></p>
-				<img src="./images/obj.png" alt="">
+				<p class="above-h1 animated fadeInDown ">Lorem Ipsume Dolor Sit Iusmod Tempor</p>
+				<h1 class="h1 wow animated  bounceInUp" data-wow-delay=".4s">INCIDIDUNT BORE</h1>
+				<p class="animated wow  bounceInUp" data-wow-delay=".6s"><small>Orem ipsum dolor sit amet, consecteture</small></p>
+				<img class="animated wow bounceInUp" data-wow-delay=".8s" src="./images/obj.png" alt="">
 				<br>
-				<a href="#" class="btn btn-lg rounded-0"><span><b>KNOW MORE</b></span></a>
+				<a href="#" class="btn btn-lg rounded-0 animated wow bounceInUp" data-wow-delay="1s"><span><b>KNOW MORE</b></span></a>
 			</div>
 		</div>
 
@@ -54,31 +55,33 @@
 	<section id="about-us">
 		<div class="container">
 			<div class="title-page">
-				<h2>ABOUT US</h2>
+				<h2 class="wow hiiding animated  bounceInUp " data-wow-delay=".4s">ABOUT US</h2>
 				<img src="./images/obj1.png" alt="">
-				<p class="descr py-5">Lorem ipsum dolor sit amet, labore et dolore magna aliqua. Ut enim ad minimquis. Lorem ipsum
+				<p class="descr py-5 wow hiiding animated  bounceInUp " data-wow-delay=".6s">Lorem ipsum dolor sit amet,
+					labore et dolore
+					magna aliqua. Ut enim ad minimquis. Lorem ipsum
 					dolor
 					sit amet,
 					consectetur adipisicing elit, quis nostrud ation ullamco ut labore et dolore magna aliqua. Ut enim ad minim
 					veniam, <strong>quis nostrud ation ullamco</strong> laboris nisi ut aliquip ex ea commodo consequat.</p>
 			</div>
 			<ul class="stages">
-				<li class="stages_item stages-border">
+				<li class="stages_item stages-border wow  animated  bounceInUp " data-wow-delay=".8s">
 					<i class="far fa-bell fa-2x"></i>
 					<h3>Title goes here</h3>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit quis nostrud ation ullamco ut labore</p>
 				</li>
-				<li class="stages_item stages-border">
+				<li class="stages_item stages-border wow  animated  bounceInUp " data-wow-delay=".9s">
 					<i class="fas fa-pencil-alt fa-2x"></i>
 					<h3>Title goes here</h3>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit quis nostrud ation ullamco ut labore</p>
 				</li>
-				<li class="stages_item stages-border">
+				<li class="stages_item stages-border wow  animated  bounceInUp " data-wow-delay="1s">
 					<i class="fas fa-cogs fa-2x"></i>
 					<h3>Title goes here</h3>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit quis nostrud ation ullamco ut labore</p>
 				</li>
-				<li class="stages_item">
+				<li class="stages_item wow  animated  bounceInUp " data-wow-delay="1.2s">
 					<i class="fas fa-laptop fa-2x"></i>
 					<h3>Title goes here</h3>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit quis nostrud ation ullamco ut labore</p>
@@ -91,8 +94,8 @@
 	<section id="services">
 		<div class="container">
 			<div class="row">
-				<div class="col-6">
-					<div class="title-page text-left ">
+				<div class="col-6 ">
+					<div class="title-page text-left wow animated  bounceInRight" data-wow-delay=".4s">
 						<h2>SERVICES</h2>
 						<img src="./images/obj1.png" alt="">
 						<p class="descr py-5 mw-100">Lorem ipsum dolor sit amet, labore et dolore magna aliqua. Ut enim ad minimquis.
@@ -103,24 +106,24 @@
 					</div>
 					<div class="service-stages">
 						<div class="row">
-							<div class="service-stages_item text-left col-md-6">
+							<div class="service-stages_item text-left col-md-6 wow animated  bounceInRight" data-wow-delay=".6s">
 								<i class="fas fa-globe-europe fa-2x"></i>
 								<h3>Title goes here</h3>
 								<p class="descr">Lorem ipsum dolor sit amet, consectetur adipisicing elit quis nostrud ation ullamco ut labore</p>
 							</div>
-							<div class="service-stages_item text-left col-md-6">
+							<div class="service-stages_item text-left col-md-6 wow animated  bounceInRight" data-wow-delay=".8s">
 								<i class="fas fa-search fa-2x"></i>
 								<h3>Title goes here</h3>
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit quis nostrud ation ullamco ut labore</p>
 							</div>
 						</div>
 						<div class="row mt-5">
-							<div class="service-stages_item text-left col-md-6">
+							<div class="service-stages_item text-left col-md-6 wow animated  bounceInRight" data-wow-delay="1s">
 								<i class="far fa-clock fa-2x"></i>
 								<h3>Title goes here</h3>
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit quis nostrud ation ullamco ut labore</p>
 							</div>
-							<div class="service-stages_item text-left col-md-6">
+							<div class="service-stages_item text-left col-md-6 wow animated  bounceInRight" data-wow-delay="1.2s">
 								<i class="fas fa-chart-bar fa-2x"></i>
 								<h3>Title goes here</h3>
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit quis nostrud ation ullamco ut labore</p>
@@ -129,7 +132,7 @@
 					</div>
 				</div>
 				<div class="col-6">
-					<div class="services-img">
+					<div class="services-img wow animated  bounceInRight" data-wow-delay="1.4s">
 						<picture>
 
 							<img src="./images/bg-serv.png" alt="">
@@ -143,15 +146,15 @@
 
 	<section id="work">
 		<div class="container">
-			<div class="title-page">
-				<h2>ABOUT US</h2>
+			<div class="title-page wow animated bounceInUp" data-wow-delay=".4s">
+				<h2>MY WORK</h2>
 				<img src="./images/obj1.png" alt="">
 				<p class="descr py-5">Lorem ipsum dolor sit amet, labore et dolore magna aliqua. Ut enim ad minimquis. Lorem ipsum
 					dolor sit amet onsectetur adipisicing elit, quis nostrud ation ullamco ut labore et dolore magna aliqua.</p>
 			</div>
 		</div>
 		<div class="row mx-0">
-			<div class="col-3 px-0">
+			<div class="col-3 px-0 wow animated bounceInUp" data-wow-delay=".6s">
 				<div class="folio">
 					<div class="hcaption">
 						<h3>title goes here</h3>
@@ -166,7 +169,7 @@
 
 			</div>
 
-			<div class="col-3 px-0">
+			<div class="col-3 px-0 wow animated bounceInUp" data-wow-delay=".8s">
 				<div class="folio">
 					<div class="hcaption">
 						<h3>title goes here</h3>
@@ -181,7 +184,7 @@
 
 			</div>
 
-			<div class="col-3 px-0">
+			<div class="col-3 px-0 wow animated bounceInUp" data-wow-delay="1s">
 				<div class="folio">
 					<div class="hcaption">
 						<h3>title goes here</h3>
@@ -196,7 +199,7 @@
 
 			</div>
 
-			<div class="col-3 px-0">
+			<div class="col-3 px-0 wow animated bounceInUp" data-wow-delay="1.2s">
 				<div class="folio">
 					<div class="hcaption">
 						<h3>title goes here</h3>
@@ -211,7 +214,7 @@
 
 			</div>
 
-			<div class="col-3 px-0">
+			<div class="col-3 px-0 wow animated bounceInUp" data-wow-delay="1.4s">
 				<div class="folio">
 					<div class="hcaption">
 						<h3>title goes here</h3>
@@ -226,7 +229,7 @@
 
 			</div>
 
-			<div class="col-3 px-0">
+			<div class="col-3 px-0 wow animated bounceInUp" data-wow-delay="1.6s">
 				<div class="folio">
 					<div class="hcaption">
 						<h3>title goes here</h3>
@@ -241,7 +244,7 @@
 
 			</div>
 
-			<div class="col-3 px-0">
+			<div class="col-3 px-0 wow animated bounceInUp" data-wow-delay="1.8s">
 				<div class="folio">
 					<div class="hcaption">
 						<h3>title goes here</h3>
@@ -256,7 +259,7 @@
 
 			</div>
 
-			<div class="col-3 px-0">
+			<div class="col-3 px-0 wow animated bounceInUp" data-wow-delay="2s">
 				<div class="folio">
 					<div class="hcaption">
 						<h3>title goes here</h3>
@@ -277,7 +280,7 @@
 
 	<section id="contact-us">
 		<div class="container">
-			<div class="title-page">
+			<div class="title-page pb-5 wow animated bounceInUp" data-wow-delay=".4s">
 				<h2>CONTACT US</h2>
 				<img src="./images/obj1.png" alt="">
 				<p class="descr py-5">Lorem ipsum dolor sit amet, labore et dolore magna aliqua. Ut enim ad minimquis. Lorem ipsum
@@ -286,14 +289,14 @@
 		</div>
 
 		<div class="write-us bg-dark">
-			<div class="form">
+			<div class="form wow animated bounceInUp" data-wow-delay=".7s">
 				<input class="form_item" type="text" placeholder="NAME">
 				<input type="text" class="form_item" placeholder="EMAIL ADDRESS">
 				<h6 class="">MESSAGE</h6>
 				<textarea class="form_item" name="submit" id="submit" cols="30" rows="3"></textarea>
 			</div>
 
-			<button class="btn mx-auto mt-3">SUMBIT</button>
+			<button class="btn mx-auto mt-3 wow animated bounceInUp" data-wow-delay="1s">SUMBIT</button>
 		</div>
 	</section>
 
@@ -333,6 +336,23 @@
 	 crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
 	 crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+	<script>
+		new WOW().init();
+	</script>
+
+	<script>
+		$(document).ready(function () {
+			$(".departs").on("click", "a", function (event) {
+				event.preventDefault();
+				var id = $(this).attr('href'),
+					top = $(id).offset().top;
+				$('body,html').animate({
+					scrollTop: top
+				}, 1500);
+			});
+		});
+	</script>
 
 </body>
 
