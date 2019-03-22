@@ -11,10 +11,11 @@
 	<link rel="stylesheet" href="css/media.css">
 	<link rel="stylesheet" href="css/fonts.css">
 	<link rel="stylesheet" href="css/normalize.css">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
-	 crossorigin="anonymous">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-	 crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+		integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/animate.css">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 </head>
@@ -23,29 +24,39 @@
 
 	<header id="header">
 
-		<div class="nav-wraper">
+		<div class="nav-wraper wow animated fadeInDown">
 			<div class="container">
 				<nav class="navbar navbar-light navbar-fixed-top">
-					<a href="#" class="navbar-brand"><img src="images/logo.png" alt=""></a>
-					<ul class="departs">
-						<li><a href="#header">HOME</a></li>
-						<li><a href="#about-us">ABOUT ME</a></li>
-						<li><a href="#services">SERVICES</a></li>
-						<li><a href="#work">MY WORK</a></li>
-						<li><a href="#contact-us">CONTACT ME</a></li>
+					<a href="#" class="navbar-brand"><img src="images/logo.png" alt="picture"></a>
+
+					<div class="trigger">
+						<span class="trigger__line">
+							Меню
+						</span>
+					</div>
+					<ul class="departs ">
+						<li><a href="#header">ГЛАВНАЯ</a></li>
+						<li><a href="#about-us">О НАС</a></li>
+						<li><a href="#services">СЕРВИСЫ</a></li>
+						<li><a href="#work">РАБОТЫ</a></li>
+						<li><a href="#contact-us">НАПИШИТЕ НАМ</a></li>
 					</ul>
+
+
 				</nav>
 			</div>
 		</div>
 
 		<div class="main-head">
 			<div class="main-head_wraper">
-				<p class="above-h1 animated fadeInDown ">Lorem Ipsume Dolor Sit Iusmod Tempor</p>
-				<h1 class="h1 wow animated  bounceInUp" data-wow-delay=".4s">INCIDIDUNT BORE</h1>
-				<p class="animated wow  bounceInUp" data-wow-delay=".6s"><small>Orem ipsum dolor sit amet, consecteture</small></p>
-				<img class="animated wow bounceInUp" data-wow-delay=".8s" src="./images/obj.png" alt="">
+				<p class="above-h1 wow animated fadeInDown " data-wow-delay=".5s">Уникальный сервис хранения ваших работ
+				</p>
+				<h1 class="h1 wow animated  bounceInUp" data-wow-delay=".4s">MYFOLIO COMPANY</h1>
+				<p class="animated wow  bounceInUp" data-wow-delay=".6s"><small>Мы те, кто ценит ваше рвемя!</small></p>
+				<img class="animated wow bounceInUp" data-wow-delay=".8s" src="./images/obj.png" alt="picture">
 				<br>
-				<a href="#" class="btn btn-lg rounded-0 animated wow bounceInUp" data-wow-delay="1s"><span><b>KNOW MORE</b></span></a>
+				<a href="#about-us" class="btn btn-lg rounded-0 animated wow bounceInUp"
+					data-wow-delay="1s"><span><b>УЗНАТЬ БОЛЬШЕ</b></span></a>
 			</div>
 		</div>
 
@@ -55,36 +66,36 @@
 	<section id="about-us">
 		<div class="container">
 			<div class="title-page">
-				<h2 class="wow hiiding animated  bounceInUp " data-wow-delay=".4s">ABOUT US</h2>
-				<img src="./images/obj1.png" alt="">
-				<p class="descr py-5 wow hiiding animated  bounceInUp " data-wow-delay=".6s">Lorem ipsum dolor sit amet,
-					labore et dolore
-					magna aliqua. Ut enim ad minimquis. Lorem ipsum
-					dolor
-					sit amet,
-					consectetur adipisicing elit, quis nostrud ation ullamco ut labore et dolore magna aliqua. Ut enim ad minim
-					veniam, <strong>quis nostrud ation ullamco</strong> laboris nisi ut aliquip ex ea commodo consequat.</p>
+				<h2 class="wow hiiding animated  bounceInUp " data-wow-delay=".4s">О НАС</h2>
+				<img src="./images/obj1.png" alt="picture">
+				<p class="descr py-5 wow hiiding animated  bounceInUp " data-wow-delay=".6s">Если кратко, то наша
+					компания уже как 6 лет присутствует на рынке, предоставляя качественные сервис хранения образцовых
+					работ во всем мире.
+					МЫ <strong>обеспечим вам наилучший комфорт</strong>, чтобы вы могли забыть о заботах данного типа.
+				</p>
 			</div>
-			<ul class="stages">
-				<li class="stages_item stages-border wow  animated  bounceInUp " data-wow-delay=".8s">
+			<ul class="stages row">
+				<li class="stages_item stages-border wow  animated  bounceInUp col-lg-3 col-md-6" data-wow-delay=".8s">
 					<i class="far fa-bell fa-2x"></i>
-					<h3>Title goes here</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit quis nostrud ation ullamco ut labore</p>
+					<h3>Оповистим</h3>
+					<p>Как только мы получим вашу заявку на получение наших услуг, с вами моментально свяжется наш
+						менеджер</p>
 				</li>
-				<li class="stages_item stages-border wow  animated  bounceInUp " data-wow-delay=".9s">
+				<li class="stages_item stages-border wow  animated  bounceInUp col-lg-3 col-md-6" data-wow-delay=".9s">
 					<i class="fas fa-pencil-alt fa-2x"></i>
-					<h3>Title goes here</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit quis nostrud ation ullamco ut labore</p>
+					<h3>План</h3>
+					<p>Наш менеджер обсудит с вами оптимальные условия таирфного плана и выберет лучший вараинт для вас
+					</p>
 				</li>
-				<li class="stages_item stages-border wow  animated  bounceInUp " data-wow-delay="1s">
+				<li class="stages_item stages-border wow  animated  bounceInUp col-lg-3 col-md-6" data-wow-delay="1s">
 					<i class="fas fa-cogs fa-2x"></i>
-					<h3>Title goes here</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit quis nostrud ation ullamco ut labore</p>
+					<h3>Выполним</h3>
+					<p>В течении месяца наша продакшн команда будет разрабатывать презентабельность вашей страницы.</p>
 				</li>
-				<li class="stages_item wow  animated  bounceInUp " data-wow-delay="1.2s">
+				<li class="stages_item wow  animated  bounceInUp col-lg-3 col-md-6" data-wow-delay="1.2s">
 					<i class="fas fa-laptop fa-2x"></i>
-					<h3>Title goes here</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit quis nostrud ation ullamco ut labore</p>
+					<h3>Доставим</h3>
+					<p>Финальным этапом станет размещение вашей страницы на нашей сервисной площадке</p>
 				</li>
 			</ul>
 
@@ -94,39 +105,44 @@
 	<section id="services">
 		<div class="container">
 			<div class="row">
-				<div class="col-6 ">
+				<div class="col-lg-6 col-md-12">
 					<div class="title-page text-left wow animated  bounceInRight" data-wow-delay=".4s">
-						<h2>SERVICES</h2>
-						<img src="./images/obj1.png" alt="">
-						<p class="descr py-5 mw-100">Lorem ipsum dolor sit amet, labore et dolore magna aliqua. Ut enim ad minimquis.
-							Lorem
-							ipsum
-							dolor
+						<h2>СЕРВИС</h2>
+						<img src="./images/obj1.png" alt="picture">
+						<p class="descr py-5 mw-100">Нашими услугами успешно пользуются вот как 100 000 наших
+							пользователей на протяжении 6 лет в разных точках мира!
 						</p>
 					</div>
 					<div class="service-stages">
 						<div class="row">
-							<div class="service-stages_item text-left col-md-6 wow animated  bounceInRight" data-wow-delay=".6s">
+							<div class="service-stages_item text-left col-md-6 wow animated  bounceInRight"
+								data-wow-delay=".6s">
 								<i class="fas fa-globe-europe fa-2x"></i>
-								<h3>Title goes here</h3>
-								<p class="descr">Lorem ipsum dolor sit amet, consectetur adipisicing elit quis nostrud ation ullamco ut labore</p>
+								<h3>Глоблизм</h3>
+								<p>Мы не стоим на одном месте и постоянно расширяем наш ресурс. Англия,
+									Германия, Штаты.. Мы есть в 12 странах мира.</p>
 							</div>
-							<div class="service-stages_item text-left col-md-6 wow animated  bounceInRight" data-wow-delay=".8s">
+							<div class="service-stages_item text-left col-md-6 wow animated  bounceInRight"
+								data-wow-delay=".8s">
 								<i class="fas fa-search fa-2x"></i>
-								<h3>Title goes here</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit quis nostrud ation ullamco ut labore</p>
+								<h3>Поиск</h3>
+								<p>За последние 2 года нас набрали в различных поисковиках 134 000 рас. Нас легко найти!
+								</p>
 							</div>
 						</div>
 						<div class="row mt-5">
-							<div class="service-stages_item text-left col-md-6 wow animated  bounceInRight" data-wow-delay="1s">
+							<div class="service-stages_item text-left col-md-6 wow animated  bounceInRight"
+								data-wow-delay="1s">
 								<i class="far fa-clock fa-2x"></i>
-								<h3>Title goes here</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit quis nostrud ation ullamco ut labore</p>
+								<h3>Время</h3>
+								<p>Самый главный ресурс для нас - это время! Сроки, дэдлайны - наш конек.</p>
 							</div>
-							<div class="service-stages_item text-left col-md-6 wow animated  bounceInRight" data-wow-delay="1.2s">
+							<div class="service-stages_item text-left col-md-6 wow animated  bounceInRight"
+								data-wow-delay="1.2s">
 								<i class="fas fa-chart-bar fa-2x"></i>
-								<h3>Title goes here</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit quis nostrud ation ullamco ut labore</p>
+								<h3>Результат</h3>
+								<p>Не просто слова, а факты, наш ресурс предоставляет глубокие и точные статистические
+									данные.</p>
 							</div>
 						</div>
 					</div>
@@ -135,7 +151,7 @@
 					<div class="services-img wow animated  bounceInRight" data-wow-delay="1.4s">
 						<picture>
 
-							<img src="./images/bg-serv.png" alt="">
+							<img src="./images/bg-serv.png" alt="picture">
 						</picture>
 					</div>
 				</div>
@@ -147,128 +163,128 @@
 	<section id="work">
 		<div class="container">
 			<div class="title-page wow animated bounceInUp" data-wow-delay=".4s">
-				<h2>MY WORK</h2>
-				<img src="./images/obj1.png" alt="">
-				<p class="descr py-5">Lorem ipsum dolor sit amet, labore et dolore magna aliqua. Ut enim ad minimquis. Lorem ipsum
-					dolor sit amet onsectetur adipisicing elit, quis nostrud ation ullamco ut labore et dolore magna aliqua.</p>
+				<h2>РАЗМЕЩЕННЫЕ РАБОТЫ</h2>
+				<img src="./images/obj1.png" alt="picture">
+				<p class="descr py-5">Лучшие и успешные кейсы мы выставляем на нашей доске почета, дабы был очевиден
+					результат работы с нами. Каждая работа является чем-то уникальным и неповторимым, это настоящая
+					ценность для нас!</p>
 			</div>
 		</div>
 		<div class="row mx-0">
-			<div class="col-3 px-0 wow animated bounceInUp" data-wow-delay=".6s">
+			<div class="col-lg-3 col-md-6 px-0 wow animated bounceInUp" data-wow-delay=".6s">
 				<div class="folio">
 					<div class="hcaption">
-						<h3>title goes here</h3>
+						<h3>Урбан-краски</h3>
 
-						<p class="descr " data-size="litle">Lorem ipsum dolor sit amet, labore et dolore magna aliqua. Ut enim ad
-							minimquis.</p>
+						<p class="descr " data-size="litle">На эту работу меня сподвигло мое старое чувство..</p>
 					</div>
 					<div class="folio-work">
-						<img src="./images/portfolio/f8.jpg" alt="">
+						<img src="./images/portfolio/f8.jpg" alt="picture">
 					</div>
 				</div>
 
 			</div>
 
-			<div class="col-3 px-0 wow animated bounceInUp" data-wow-delay=".8s">
+			<div class="col-lg-3 col-md-6 px-0 wow animated bounceInUp" data-wow-delay=".8s">
 				<div class="folio">
 					<div class="hcaption">
-						<h3>title goes here</h3>
+						<h3>Летний блик</h3>
 
-						<p class="descr " data-size="litle">Lorem ipsum dolor sit amet, labore et dolore magna aliqua. Ut enim ad
-							minimquis.</p>
+						<p class="descr " data-size="litle">После каждой зимы рождается новый мир, новый цвет. Здесь я
+							захотела передедать...</p>
 					</div>
 					<div class="folio-work">
-						<img src="./images/portfolio/f1.jpg" alt="">
+						<img src="./images/portfolio/f1.jpg" alt="picture">
 					</div>
 				</div>
 
 			</div>
 
-			<div class="col-3 px-0 wow animated bounceInUp" data-wow-delay="1s">
+			<div class="col-lg-3 col-md-6 px-0 wow animated bounceInUp" data-wow-delay="1s">
 				<div class="folio">
 					<div class="hcaption">
-						<h3>title goes here</h3>
+						<h3>Вблизи от совершенства</h3>
 
-						<p class="descr " data-size="litle">Lorem ipsum dolor sit amet, labore et dolore magna aliqua. Ut enim ad
-							minimquis.</p>
+						<p class="descr " data-size="litle">Масштабы! От чегото я всегда знал что дело в них, мы часто
+							....</p>
 					</div>
 					<div class="folio-work">
-						<img src="./images/portfolio/f2.jpg" alt="">
+						<img src="./images/portfolio/f2.jpg" alt="picture">
 					</div>
 				</div>
 
 			</div>
 
-			<div class="col-3 px-0 wow animated bounceInUp" data-wow-delay="1.2s">
+			<div class="col-lg-3  col-md-6 px-0 wow animated bounceInUp" data-wow-delay="1.2s">
 				<div class="folio">
 					<div class="hcaption">
-						<h3>title goes here</h3>
+						<h3>Странник</h3>
 
-						<p class="descr " data-size="litle">Lorem ipsum dolor sit amet, labore et dolore magna aliqua. Ut enim ad
-							minimquis.</p>
+						<p class="descr " data-size="litle">Меня всегда накрывало приятное чувство, когда я находясь в
+							пути окутываюсь в тень дорожных строений...</p>
 					</div>
 					<div class="folio-work">
-						<img src="./images/portfolio/f3.jpg" alt="">
+						<img src="./images/portfolio/f3.jpg" alt="picture">
 					</div>
 				</div>
 
 			</div>
 
-			<div class="col-3 px-0 wow animated bounceInUp" data-wow-delay="1.4s">
+			<div class="col-lg-3 col-md-6 px-0 wow animated bounceInUp" data-wow-delay="1.4s">
 				<div class="folio">
 					<div class="hcaption">
-						<h3>title goes here</h3>
+						<h3>Красота</h3>
 
-						<p class="descr " data-size="litle">Lorem ipsum dolor sit amet, labore et dolore magna aliqua. Ut enim ad
-							minimquis.</p>
+						<p class="descr " data-size="litle">Вроде все просто и привычно, но это лишь на первый взгляд...
+						</p>
 					</div>
 					<div class="folio-work">
-						<img src="./images/portfolio/f4.jpg" alt="">
+						<img src="./images/portfolio/f4.jpg" alt="picture">
 					</div>
 				</div>
 
 			</div>
 
-			<div class="col-3 px-0 wow animated bounceInUp" data-wow-delay="1.6s">
+			<div class="col-lg-3 col-md-6 px-0 wow animated bounceInUp" data-wow-delay="1.6s">
 				<div class="folio">
 					<div class="hcaption">
-						<h3>title goes here</h3>
+						<h3>Здоровье</h3>
 
-						<p class="descr " data-size="litle">Lorem ipsum dolor sit amet, labore et dolore magna aliqua. Ut enim ad
-							minimquis.</p>
+						<p class="descr " data-size="litle">Я никогда раньше не думала, что приду к этому, но тем не
+							менее..</p>
 					</div>
 					<div class="folio-work">
-						<img src="./images/portfolio/f5.jpg" alt="">
+						<img src="./images/portfolio/f5.jpg" alt="picture">
 					</div>
 				</div>
 
 			</div>
 
-			<div class="col-3 px-0 wow animated bounceInUp" data-wow-delay="1.8s">
+			<div class="col-lg-3 col-md-6 px-0 wow animated bounceInUp" data-wow-delay="1.8s">
 				<div class="folio">
 					<div class="hcaption">
-						<h3>title goes here</h3>
+						<h3>Братья младшие</h3>
 
-						<p class="descr " data-size="litle">Lorem ipsum dolor sit amet, labore et dolore magna aliqua. Ut enim ad
-							minimquis.</p>
+						<p class="descr " data-size="litle">Родство.. Вещь для нас привычная и обыденная, но не на
+							столько ясна как хотелось бы...</p>
 					</div>
 					<div class="folio-work">
-						<img src="./images/portfolio/f6.jpg" alt="">
+						<img src="./images/portfolio/f6.jpg" alt="picture">
 					</div>
 				</div>
 
 			</div>
 
-			<div class="col-3 px-0 wow animated bounceInUp" data-wow-delay="2s">
+			<div class="col-lg-3 col-md-6 px-0 wow animated bounceInUp" data-wow-delay="2s">
 				<div class="folio">
 					<div class="hcaption">
-						<h3>title goes here</h3>
+						<h3>Ты и Я</h3>
 
-						<p class="descr " data-size="litle">Lorem ipsum dolor sit amet, labore et dolore magna aliqua. Ut enim ad
-							minimquis.</p>
+						<p class="descr " data-size="litle">Наше время такого, что мы уже не в состоянии замечать вещи,
+							которые...</p>
 					</div>
 					<div class="folio-work">
-						<img src="./images/portfolio/f7.jpg" alt="">
+						<img src="./images/portfolio/f7.jpg" alt="picture">
 					</div>
 				</div>
 
@@ -281,22 +297,22 @@
 	<section id="contact-us">
 		<div class="container">
 			<div class="title-page pb-5 wow animated bounceInUp" data-wow-delay=".4s">
-				<h2>CONTACT US</h2>
-				<img src="./images/obj1.png" alt="">
-				<p class="descr py-5">Lorem ipsum dolor sit amet, labore et dolore magna aliqua. Ut enim ad minimquis. Lorem ipsum
-					dolor sit amet onsectetur adipisicing elit, quis nostrud ation ullamco ut labore et dolore magna aliqua.</p>
+				<h2>НАПИШИТЕ НАМ</h2>
+				<img src="./images/obj1.png" alt="picture">
+				<p class="descr py-5">Наша цель - помочь Вам. Напишите нам о том, чего именно вы бы желали достичь на
+					своей рабочей странице и мы непременно найдем именно то, что Вам нужно.</p>
 			</div>
 		</div>
 
 		<div class="write-us bg-dark">
 			<div class="form wow animated bounceInUp" data-wow-delay=".7s">
-				<input class="form_item" type="text" placeholder="NAME">
-				<input type="text" class="form_item" placeholder="EMAIL ADDRESS">
-				<h6 class="">MESSAGE</h6>
+				<input class="form_item" type="text" placeholder="ИМЯ">
+				<input type="text" class="form_item" placeholder="ПОЧТА">
+				<h6 class="">СООБЩЕНИЕ</h6>
 				<textarea class="form_item" name="submit" id="submit" cols="30" rows="3"></textarea>
 			</div>
 
-			<button class="btn mx-auto mt-3 wow animated bounceInUp" data-wow-delay="1s">SUMBIT</button>
+			<button class="btn mx-auto mt-3 wow animated bounceInUp" data-wow-delay="1s">ОТПРАВИТЬ</button>
 		</div>
 	</section>
 
@@ -322,8 +338,8 @@
 	<script src="libs/respond/respond.min.js"></script>
 	<![endif]-->
 
-	<script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-	 crossorigin="anonymous"></script>
+	<script src="http://code.jquery.com/jquery-3.3.1.min.js"
+		integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="js/main.js"></script>
 	<script src="plugins/jquery-maskedinput/jquery.maskedinput.js"></script>
@@ -332,10 +348,12 @@
 
 
 
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-	 crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-	 crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+		integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+	</script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+	</script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
 	<script>
 		new WOW().init();
@@ -343,7 +361,7 @@
 
 	<script>
 		$(document).ready(function () {
-			$(".departs").on("click", "a", function (event) {
+			$(".departs, .main-head_wraper").on("click", "a", function (event) {
 				event.preventDefault();
 				var id = $(this).attr('href'),
 					top = $(id).offset().top;

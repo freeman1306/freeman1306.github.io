@@ -1,0 +1,39 @@
+@media screen and (max-width: 992px) {
+    .navbar {
+        justify-content: space-around !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .departs {
+        height: 0;
+        opacity: 0;
+    }
+
+    .trigger {
+        display: block;
+    }
+
+    .navbar {
+        justify-content: space-between !important;
+    }
+
+    .services-img {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .h1 {
+        letter-spacing: normal !important;
+        font-size: 14vw !important;
+    }
+
+    .above-h1 {
+        font-size: 4vw !important;
+    }
+
+    h2 {
+        font-size: 11vw !important;
+    }
+}

@@ -1,5 +1,10 @@
 @import "helpers/_variables.scss";
 
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+
 i {
 	color: $green_color;
 }
@@ -29,6 +34,8 @@ img {
 
 h2 {
 	color: $green_color;
+	font-weight: bold !important;
+	font-size: 3rem !important;
 }
 
 .nav-wraper {
@@ -36,6 +43,67 @@ h2 {
 	position: fixed;
 	width: 100%;
 	z-index: 99;
+}
+
+.trigger {
+	width: 30px;
+	display: none;
+	padding: 11px 0;
+	font-size: 0;
+	box-sizing: content-box;
+}
+
+.trigger__line {
+	position: relative;
+	display: inline-block;
+	width: 30px;
+	height: 4px;
+	vertical-align: bottom;
+	background: #fff;
+	transition: background .3s .5s;
+
+	&::before,
+	&::after {
+		content: "";
+		position: absolute;
+		left: 0;
+		width: 100%;
+		height: 4px;
+		background: #fff;
+		transform-origin: 50% 50%;
+		transition: top .3s .3s, transform .3s;
+		transition: top .3s .3s, transform .3s;
+	}
+
+	&::before {
+		top: 10px;
+	}
+
+	&::after {
+		top: -10px;
+	}
+}
+
+.trigger--show .trigger__line {
+	width: 28px;
+	background: 0 0;
+	transition: background 0s linear;
+}
+
+.trigger--show .trigger__line::before,
+.trigger--show .trigger__line::after {
+	width: 28px;
+	top: 0;
+	left: 0;
+	transition: top .3s, transform .3s .5s;
+}
+
+.trigger--show .trigger__line::before {
+	transform: rotate3d(0, 0, 1, 45deg);
+}
+
+.trigger--show .trigger__line::after {
+	transform: rotate3d(0, 0, 1, -45deg);
 }
 
 section {
@@ -61,7 +129,21 @@ section {
 			}
 		}
 	}
+
+	&.active {
+		display: block;
+		height: auto;
+		width: 100%;
+		padding: 0;
+		opacity: 1;
+		transition: all .6s linear;
+
+		li {
+			padding: 1rem 0;
+		}
+	}
 }
+
 
 .main-head {
 	background-image: url(../images/bg.jpg);
@@ -101,12 +183,13 @@ section {
 
 .stages {
 	display: flex;
+	padding: 0;
 }
 
 .stages,
 .service-stages {
 	&-border {
-		border-right: 1px solid rgb(109, 109, 109);
+		border-right: 1px solid #d0d0d0;
 	}
 
 	&_item {
@@ -133,7 +216,7 @@ section {
 }
 
 .services-img {
-	margin: -4.2rem 0;
+
 
 	img {
 		height: 100%;
